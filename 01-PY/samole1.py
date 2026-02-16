@@ -39,4 +39,19 @@ b=3
 sum=10
 sum+=a
 # print(age)
-print(sum)
+# print(sum)
+
+
+a=int(3.14)
+b=2
+
+A=float(input("Enter A"))
+B=float(input("Enter B"))
+
+# print("Addition  IS :",(A+B)/2)
+
+# print("True") if A>B else print("False");
+
+result=("false","true")[A>B]
+
+print(type(result))     
