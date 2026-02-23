@@ -14,7 +14,7 @@ class Complex:
     def showNumber(self):
         print(self.real,"i + ",self.img,"j")
 
-    def add(self,num2):
+    def __add__(self,num2):
         newReal=self.real+num2.real
         newImg=self.img+num2.img 
         print(newReal,"i + ",newImg,"j")
@@ -25,5 +25,6 @@ c1.showNumber()
 c2=Complex(3,2)
 c2.showNumber()
 
-c1.add(c2)
+c3=c1+c2
+ 
 
