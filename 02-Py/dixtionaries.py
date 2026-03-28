@@ -5,16 +5,27 @@ dictonary={
         "Street":"Mainroad",
         12:13
     }],
-
 }
 
 # print(dictonary["address"][2][12])
 
-nul_dict={}
-# nul_dict["name"]="apna_college";
+dict={
+    "sem":"6",
+    "subjects":["ENG","VSLI","MEMS","IIOT"],
+    "teacher":{
+        "name":["a","b","c"],
+        "degreee":{"NA","BKC"},
+    },
+    "salary":(200,21111,100),
+}
 
-# print(nul_dict["name"])
-# print(type(nul_dict))
+
+# print(dict["teacher"]["name"][2])
+nul_dict={}
+nul_dict["name"]="apna_college";
+
+print(nul_dict["name"])
+print(type(nul_dict))
 
 
 newDict={
@@ -28,15 +39,15 @@ newDict={
 
 print("Length = ",len(newDict.keys()),"\n")
 print( len(list(newDict.values())),"\n")
-print(newDict.items(),"\n")
+# print(newDict.items(),"\n")
 
-print(newDict.get("age"),"\n")
+# print(newDict.get("age"),"\n")
 
-# newDict.update({"aaa":})
+# # newDict.update({"aaa":})
 
-print(newDict.update({'naaam':'aaa'}))
+# print(newDict.update({'naaam':'aaa'}))
 
-print("New Dic",newDict.values())
+# print("New Dic",newDict.values())
 
 
 

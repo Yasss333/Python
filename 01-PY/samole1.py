@@ -9,7 +9,7 @@
 
 # Ternary Operato
 
-# food=input("What food : ")
+# food=input("What food : ") 
 
 # print(food) if food=="oats" else print("Wrong");       
 
@@ -42,10 +42,10 @@ sum+=a
 # print(sum)
 
 
-a=int(True)
-b=2
-print(a)
-print(type(a))
+# a=int(True)
+# b=2
+# print(a)
+# print(type(a))
 # A=float(input("Enter A"))
 # B=float(input("Enter B"))
 
@@ -53,6 +53,16 @@ print(type(a))
 
 # print("True") if A>B else print("False");
 
+# A=float(input("Enter NUmber A  : "))
+# B=float(input("Enter NUmber     B : "))
+
 # result=("false","true")[A>B]
 
-# print(type(result))     
+# print(result)     
+
+age=23
+
+print("Youg") if age<18 else print("OLD")
+
+    
+# print(("False","true"),[A>B])

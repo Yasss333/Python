@@ -2,7 +2,7 @@ array=[5,4,3,2,1,0]
 list=[1,2,3]
 # print(list.sort(reverse=True))
 # print(list)
-# print(array[-3:0])
+# print(array[-3:-1])
 
 array.sort()
 
@@ -42,10 +42,10 @@ array1=[1,2,1]
 
 array2=array1.copy()
 
-if(array1==array2):
-    print("Palindrrome")
-else:
-    print("Not a Palindrome")
+# if(array1==array2):
+#     print("Palindrrome")
+# else:
+#     print("Not a Palindrome")
       
 
 # COunt tuple
@@ -56,5 +56,10 @@ grade.sort()
 
 result1=grade.count("A")
 
-print(result1,"\n","\t")
-print("\t",grade)
+# print(result1,"\n","\t")
+# print("\t",grade)
+
+set={1,2,3,43,344}
+# set[2]=34;
+set.clear()
+print(set)

@@ -2,10 +2,10 @@
 set ={1,2,3,4}
 
 
-# print(type(set))
-# print(len(set))
-# print(set.pop())
-# print(set)
+print(type(set))
+print(len(set))
+print(set.pop())
+print(set)
 
 # Empty set 
 

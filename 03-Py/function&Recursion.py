@@ -85,4 +85,19 @@ def printing(list,index):
         index+=1
         print(list, index)
 
-printing(list,index)
+# printing(list,index)
+
+# list=(1,2,3,4)
+
+# number=int(input("Enter number : "))
+# def counter(number):
+#     for el in range(number):
+#         pass
+    
+    
+#     print("DOne")
+
+# counter(number)
+
+# for el in list:
+    # print(el,"\n")
